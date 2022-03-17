@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #2A4171;
+}
+
+h1 {
+  text-align: center;
+  line-height: 300%;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Box-radio label {
+  padding: 5px;
+}
+
+.Input {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+  border: 1px solid #2A4171;
+  color: #2A4171;
+}
+
+.Input::placeholder {
+  color: #2A4171;
+}
+
+span {
+  height: 20px;
+  font-size: 10px;
+  color: red;
+}
+
+select {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+  border: 1px solid #2A4171;
+  color: #2A4171;
+}
+
+.Box-marketing-agreement {
+  display: flex;
+  align-items: baseline;
+}
+
+.Box-marketing-agreement input {
+  margin-right: 5px;
+}
+
+.Long-text {
+  position: relative;
+  width: 600px;
+  line-height: 1.5;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.Short-text {
+  position: relative;
+  width: 600px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+  border: 1px solid #2A4171;
+  background-color: white;
+  color: #2A4171;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #2A4171;
+  color: white;
+}
+
+div p button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+h3 {
+  text-align: center;
+  line-height: 300%;
+}
